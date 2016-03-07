@@ -1,0 +1,3 @@
+https://github.com/jonamontrias/Taleo_Release.git
+https://github.com/jonamontrias/Taleo_Source_Code.git
+
