@@ -1,3 +1,4 @@
-https://github.com/jonamontrias/Taleo_Release.git
-https://github.com/jonamontrias/Taleo_Source_Code.git
+https://github.com/chamidiaries/erp-all-projects.git
+https://github.com/chamidiaries/erp-all-users.git
+https://github.com/chamidiaries/erp-deploy.git
 
