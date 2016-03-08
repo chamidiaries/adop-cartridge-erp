@@ -7,7 +7,7 @@ def erpDEVUrl = "http://john.smith@52.48.3.198/gerrit/deploy"
 
 // Jobs
 def deploy_to_dev = freeStyleJob(projectFolderName + "/01_Deploy_to_DEV")
-def deplot_to_test = freeStyleJob(projectFolderName + "/02_Deplo_to_TEST")
+def deploy_to_test = freeStyleJob(projectFolderName + "/02_Deploy_to_TEST")
 
 deploy_to_dev.with{
   description()
