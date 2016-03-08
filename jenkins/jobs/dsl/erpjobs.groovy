@@ -21,14 +21,14 @@ deploy_to_dev.with{
     }
   }
   steps {
-	batchFile('cd C:\\Oracle\\Middleware\\Oracle_SOA1\\common\\binwlst.cmd C:\\AppDeployer.py -u weblogic -p welcome1 -a t3://localhost:7003 -d "C:\\Program Files \(x86\)\\Jenkins\\jobs\\Deploy_to_DEV\\workspace" -t http://localhost:8003')
+	batchFile('cd C:\\Oracle\\Middleware\\Oracle_SOA1\\common\\binwlst.cmd C:\\AppDeployer.py -u weblogic -p welcome1 -a t3://localhost:7003 -d "C:\\Program Files (x86)\\Jenkins\\jobs\\Deploy_to_DEV\\workspace" -t http://localhost:8003')
  }	
 }
 
 deploy_to_test.with{
   description()
   steps {
-        batchFile ('cd C:\\Oracle\\Middleware\\Oracle_SOA1\\common\\binwlst.cmd C:\\AppDeployer.py -u weblogic -p welcome1 -a t3://localhost:7002 -d "C:\\Program Files \(x86\)\\Jenkins\\jobs\\Deploy_to_DEV\\workspace" -t http://localhost:8002')
+        batchFile ('cd C:\\Oracle\\Middleware\\Oracle_SOA1\\common\\binwlst.cmd C:\\AppDeployer.py -u weblogic -p welcome1 -a t3://localhost:7002 -d "C:\\Program Files (x86)\\Jenkins\\jobs\\Deploy_to_DEV\\workspace" -t http://localhost:8002')
 	}
 }
 
